@@ -1,0 +1,38 @@
+{
+  "name": "inconnu-xd-v2",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp multi-device avec pairing code et commandes Telegram",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "telegram-bot",
+    "baileys",
+    "multi-device"
+  ],
+  "author": "INCONNU BOY TECH",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "@hapi/boom": "^10.0.1",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "pino": "^8.14.1",
+    "node-cache": "^5.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "file-type": "^18.0.0",
+    "fs-extra": "^11.1.1",
+    "moment-timezone": "^0.5.43",
+    "pm2": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
