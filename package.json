@@ -2,7 +2,7 @@
   "name": "inconnu-xd-v2",
   "version": "1.0.0",
   "description": "Bot WhatsApp multi-device avec pairing code et commandes Telegram",
-  "main": "index.js",
+  "main": "inconnu.js",
   "type": "commonjs",
   "scripts": {
     "start": "node inconnu.js",
