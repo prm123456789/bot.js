@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node inconnu.js",
+    "dev": "nodemon inconnu.js"
   },
   "keywords": [
     "whatsapp-bot",
